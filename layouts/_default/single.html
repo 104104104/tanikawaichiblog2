@@ -1,0 +1,26 @@
+{{ partial "header.html" . }}
+
+<div class="container">
+    <section>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="pageTitle">
+                    <h1>{{ .Title }}</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="pageContent">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+{{ partial "footer.html" . }}

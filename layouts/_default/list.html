@@ -1,0 +1,25 @@
+{{ partial "header" .}}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="pageTitle">
+        <h1>{{.Title}}</h1>
+      </div>
+    </div>
+  </div>
+  {{ range .Pages }}
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="pageContent">
+        <h3> {{.Title}} {{ if .Draft }} (この記事はまだ公開されていません!!){{ end }}</h3>
+        <p>{{ .Description }}</p>
+        <p><a href="{{ .RelPermalink }}"> 詳しくはこちら> </a></p>
+      </div>
+    </div>
+  </div>
+
+  {{ end }}
+</div>
+{{ partial "footer" . }}

@@ -1,3 +1,6 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://tanikawa1.site"
+languageCode = "ja"
+title = "谷川いちの１番ブログ"
+
+#.Summaryを日本語に対応させる設定
+hasCJKLanguage = true
