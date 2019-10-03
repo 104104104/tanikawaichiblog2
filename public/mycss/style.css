@@ -1,0 +1,27 @@
+.mylogo {
+    height: 80px;
+}
+
+.mymenu {
+    text-align: center;
+}
+
+.newicon {
+    height: 80px;
+    display: inline-block;
+}
+
+.archive_h1_index {
+    position: absolute;
+    bottom: 0px;
+    display: inline-block;
+}
+
+.newarchive_index {
+    display: inline-block;
+}
+
+footer {
+    padding-top: 20px;
+    background: #f8f9fa;
+}

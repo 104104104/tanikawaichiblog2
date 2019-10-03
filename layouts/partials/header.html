@@ -12,14 +12,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- 独自のcss preloadつけたほうが、開発中は安定するのでつけてみる-->
-    <link rel="preload" as="style" href="/mycss/style.css" onload="this.rel='stylesheet'">
+    <link rel="preload" as="style" href="{{ "/mycss/style.css"| relURL }}" onload="this.rel='stylesheet'">
 </head>
 
 <body>
     <header>
         <!-- 画面上部のナビバー-->
         <nav class="navbar navbar-light bg-light navbar-expand-md">
-            <a href="/index.html " class="navbar-brand"><img class="img-fluid mylogo" src="/img/ensui1.png"></a>
+            <a href="{{ "/index.html" | relURL }}" class="navbar-brand"><img class="img-fluid mylogo" src="{{ "/img/ensui1.png"| relURL }}"></a>
             <h1>谷川いちの１番ブログ</h1>
         </nav>
         <nav class="navbar navbar-light bg-light navbar-expand-md">
@@ -27,9 +27,9 @@
         </nav>
         </nav>
         <nav class="navbar navbar-light bg-light navbar-expand-md">
-            <a href="/blog" class="navbar-brand mymenu">記事<br><img class="img-fluid mylogo" src="/img/myicon_archive.png"></a>
-            <a href="/webapp" class="navbar-brand mymenu">Webアプリ<br><img class="img-fluid mylogo" src="/img/myicon_webapp.png"></a>
-            <a href="/game" class="navbar-brand mymenu">ゲーム<br><img class="img-fluid mylogo" src="/img/myicon_game.png"></a>
-            <a href="/illustration" class="navbar-brand mymenu">イラスト<br><img class="img-fluid mylogo" src="/img/myicon_illust.png"></a>
+            <a href="{{ "/blog" | relURL }}" class="navbar-brand mymenu">記事<br><img class="img-fluid mylogo" src="{{ "img/myicon_archive.png" | relURL }}"></a>
+            <a href="{{ "/webapp" | relURL }}" class="navbar-brand mymenu">Webアプリ<br><img class="img-fluid mylogo" src="{{ "/img/myicon_webapp.png" | relURL }}"></a>
+            <a href="{{ "/game" | relURL }}" class="navbar-brand mymenu">ゲーム<br><img class="img-fluid mylogo" src="{{ "/img/myicon_game.png" | relURL }}"></a>
+            <a href="{{ "/illustration" | relURL }}" class="navbar-brand mymenu">イラスト<br><img class="img-fluid mylogo" src="{{ "/img/myicon_illust.png" | relURL }}"></a>
         </nav>
     </header>
