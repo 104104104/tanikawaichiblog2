@@ -1,7 +1,7 @@
 ---
 title: "ブログをはじめた目的"
 linktitle: "Startmyblog"
-date: 2019-10-03T15:30:08+09:00
+date: 2019-10-04T11:30:08+09:00
 draft: false
 ---
 

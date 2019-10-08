@@ -3,17 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tanikawa1.site/game/</loc>
+    <lastmod>2019-10-04T10:57:03+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tanikawa1.site/</loc>
+    <lastmod>2019-10-04T10:57:03+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tanikawa1.site/illustration/</loc>
+    <lastmod>2019-10-04T10:56:47+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tanikawa1.site/webapp/</loc>
+    <lastmod>2019-10-04T10:54:40+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tanikawa1.site/blog/</loc>
+    <lastmod>2019-10-03T15:30:08+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tanikawa1.site/blog/startmyblog/</loc>
+    <lastmod>2019-10-03T15:30:08+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tanikawa1.site/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tanikawa1.site/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanikawa1.site/</loc>
     <priority>0</priority>
   </url>
   

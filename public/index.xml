@@ -6,9 +6,46 @@
     <description>Recent content on 谷川いちの１番ブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+    <lastBuildDate>Fri, 04 Oct 2019 10:57:03 +0900</lastBuildDate>
     
 	<atom:link href="https://tanikawa1.site/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ゲーム置き場</title>
+      <link>https://tanikawa1.site/game/</link>
+      <pubDate>Fri, 04 Oct 2019 10:57:03 +0900</pubDate>
+      
+      <guid>https://tanikawa1.site/game/</guid>
+      <description>INDEX!</description>
+    </item>
+    
+    <item>
+      <title>イラスト置き場</title>
+      <link>https://tanikawa1.site/illustration/</link>
+      <pubDate>Fri, 04 Oct 2019 10:56:47 +0900</pubDate>
+      
+      <guid>https://tanikawa1.site/illustration/</guid>
+      <description>INDEX!</description>
+    </item>
+    
+    <item>
+      <title>Webアプリ置き場</title>
+      <link>https://tanikawa1.site/webapp/</link>
+      <pubDate>Fri, 04 Oct 2019 10:54:40 +0900</pubDate>
+      
+      <guid>https://tanikawa1.site/webapp/</guid>
+      <description>谷川いちって色々作ってるらしいけど、どんな課題を見つけて、どのようにそれを解決したの？ と思ったときにご覧ください。 続々増えていく予定。 iPa</description>
+    </item>
+    
+    <item>
+      <title>ブログをはじめた目的</title>
+      <link>https://tanikawa1.site/blog/startmyblog/</link>
+      <pubDate>Thu, 03 Oct 2019 15:30:08 +0900</pubDate>
+      
+      <guid>https://tanikawa1.site/blog/startmyblog/</guid>
+      <description>まとめ ブログはツイッターと違い、「自分が責任持って」「制作物を同じ場所で公開し続けることができる」ので、ブログを始めることにしました。 具体的</description>
+    </item>
     
   </channel>
 </rss>

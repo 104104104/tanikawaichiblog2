@@ -1,5 +1,7 @@
+/*header関連*/
+
 .mylogo {
-    height: 80px;
+    height: 100px;
 }
 
 .mymenu {
@@ -11,9 +13,10 @@
     display: inline-block;
 }
 
+
+/*layout/index.html関連*/
+
 .archive_h1_index {
-    position: absolute;
-    bottom: 0px;
     display: inline-block;
 }
 
@@ -21,7 +24,44 @@
     display: inline-block;
 }
 
+
+/*sidebar関連*/
+
+.sidebar {
+    background: #f8f9fa;
+}
+
+.sidebar_icon {
+    width: 40%;
+}
+
+.sidebar_name {
+    display: inline-block;
+}
+
+
+/*footer関連*/
+
 footer {
     padding-top: 20px;
     background: #f8f9fa;
+}
+
+
+/*各ページ&リストページ関連*/
+
+.pageTitle {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.pageTitle h1 {
+    font-size: 36px;
+}
+
+.pageContent {}
+
+.pageContent h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
