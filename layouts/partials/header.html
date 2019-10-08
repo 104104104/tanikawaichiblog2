@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- 独自のcss preloadつけたほうが、開発中は安定するのでつけてみる-->
-    <link rel="preload" as="style" href="{{ " /mycss/style.css "| relURL }}" onload="this.rel='stylesheet'">
+    <link rel="preload" as="style" href="{{ "/mycss/style.css"| relURL }}" onload="this.rel='stylesheet'">
 </head>
 
 <body>
@@ -38,7 +38,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <a href="{{ " /index.html " | relURL }}" class="navbar-brand"><img class="img-fluid mylogo" src="{{ " /img/header.png "| relURL }}"></a>
+                        <a href="{{ "/index.html" | relURL }}" class="navbar-brand"><img class="img-fluid mylogo" src="{{ "/img/header.png"| relURL }}"></a>
                     </div>
                 </div>
             </div>
@@ -47,9 +47,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <a href="{{ " /blog " | relURL }}" class="navbar-brand mymenu">記事一覧</a>
-                        <a href="{{ " /webapp " | relURL }}" class="navbar-brand mymenu">Webアプリ</a>
-                        <a href="{{ " /game " | relURL }}" class="navbar-brand mymenu">ゲーム</a>
+                        <a href="{{ "/blog" | relURL }}" class="navbar-brand mymenu">記事一覧</a>
+                        <a href="{{ "/webapp" | relURL }}" class="navbar-brand mymenu">Webアプリ</a>
+                        <a href="{{ "/game" | relURL }}" class="navbar-brand mymenu">ゲーム</a>
                     </div>
                 </div>
             </div>

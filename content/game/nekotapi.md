@@ -1,5 +1,5 @@
 ---
-title: "「猫とタピオカ」開発話"
+title: "ゲーム「猫とタピオカ」開発話"
 linktitle: "Nekotapi"
 date: 2019-10-07T11:52:20+09:00
 draft: false
@@ -9,7 +9,7 @@ draft: false
 
 こんなゲームです↓。
 
-<img src="nekotapi.jpg" class="img-fluid">
+<img src="nekotapi.jpg" class="img-fluid" style="height: 300px;">
 
 <a href="https://nekotapi.herokuapp.com/nekotapi/title">ここで公開しています ></a>
 
