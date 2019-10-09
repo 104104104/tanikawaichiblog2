@@ -4,6 +4,20 @@
     height: 100px;
 }
 
+@media (max-width: 800px) {
+    /* 横幅が800px以下の場合に適用するスタイル */
+    .mylogo {
+        height: 70px;
+    }
+}
+
+@media (max-width: 500px) {
+    /* 横幅が500px以下の場合に適用するスタイル */
+    .mylogo {
+        height: 50px;
+    }
+}
+
 .mymenu {
     text-align: center;
 }
