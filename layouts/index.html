@@ -6,11 +6,17 @@
     <h1 class="archive_h1_index">新着記事</h1>
 </div>
 
-{{ range first 5 .Site.RegularPages.ByDate.Reverse }}
-<div class="pageContent">
-    <h3> {{.Title}} {{ if .Draft }} (この記事はまだ公開されていません!!){{ end }}</h3>
-    <p>{{substr .Summary 0 100}} ...</p>
-    <p><a href="{{ .RelPermalink }}"> 詳しくはこちら> </a></p>
-</div>
+{{ $archives := where .Site.Pages "Section" "archives" }}
+{{range first 6 $archives}}
+    {{if ne .Title "Archives" }}
+        <div class="pageContent">
+            <h3> {{.Title}} {{ if .Draft }} (この記事はまだ公開されていません!!){{ end }}</h3>
+            <p>{{substr .Summary 0 100}} ...</p>
+            <p><a href="{{ .RelPermalink }}"> 詳しくはこちら> </a></p>
+        </div>
+    {{end}}
+{{end}}
 
-{{end}} {{ partial "sidebar.html" . }} {{ partial "footer.html" . }}
+{{ partial "sidebar.html" . }}
+
+{{ partial "footer.html" . }}

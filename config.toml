@@ -1,6 +1,6 @@
 baseURL = "https://tanikawa1.site"
 languageCode = "ja"
-title = "谷川いちの１番ブログ"
+title = "谷川いちの１番ノート"
 
 #.Summaryを日本語に対応させる設定
 hasCJKLanguage = true

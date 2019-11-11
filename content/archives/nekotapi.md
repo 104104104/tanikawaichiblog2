@@ -9,7 +9,7 @@ draft: false
 
 こんなゲームです↓。
 
-<img src="nekotapi.jpg" class="img-fluid" style="height: 300px;">
+<img src="../nekotapi.jpg" class="img-fluid" style="height: 300px;">
 
 <a href="http://nekotapi.herokuapp.com/nekotapi/title">ここで公開しています ></a>
 

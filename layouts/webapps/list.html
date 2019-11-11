@@ -1,0 +1,14 @@
+{{ partial "header.html" .}}
+
+<div class="pageTitle">
+    <h1>作ったWebアプリ置き場</h1>
+</div>
+
+{{ range .Pages }}
+<div class="pageContent">
+    <h3> {{.Title}} {{ if .Draft }} (この記事はまだ公開されていません!!){{ end }}</h3>
+    <p>ここで公開しています : <a href="{{.Params.thisapplink}}">{{.Params.thisapplink}}</a></p>
+    <p>{{.Content}}</p>
+</div>
+
+{{ end }} {{ partial "sidebar.html" . }} {{ partial "footer.html" . }}
