@@ -1,0 +1,15 @@
+{{ partial "header.html" .}}
+
+<div class="pageTitle">
+    <h1>記事</h1>
+    <p>日記よりまとまった内容の記事が置いてあります。</p>
+</div>
+
+{{ range .Pages }}
+<div class="pageContent">
+    <h3> {{.Title}} {{ if .Draft }} (この記事はまだ公開されていません!!){{ end }}</h3>
+    <p>{{substr .Summary 0 100}} ...</p>
+    <p><a href="{{ .RelPermalink }}"> 詳しくはこちら> </a></p>
+</div>
+
+{{ end }} {{ partial "sidebar.html" . }} {{ partial "footer.html" . }}
