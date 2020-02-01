@@ -1,0 +1,14 @@
+{{ partial "header.html" .}}
+
+<div class="pageTitle">
+    <h1>いちばん日記</h1>
+</div>
+
+{{ range .Pages }}
+<div class="pageContent">
+    <h3> {{.Title}} {{ if .Draft }} (この記事はまだ公開されていません!!){{ end }}</h3>
+    <p><i>{{ .PublishDate.Format "January 2, 2006" }}</i></p>
+    <p>{{.Content}}</p>
+</div>
+
+{{ end }} {{ partial "sidebar.html" . }} {{ partial "footer.html" . }}

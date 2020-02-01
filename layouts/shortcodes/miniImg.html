@@ -1,0 +1,3 @@
+{{ $imageRes := .Page.Resources.GetMatch (.Get `src`) }}{{ $imageRes := $imageRes.Fit "400x600" }} {{ $imageUrl := $imageRes.RelPermalink }}
+
+<img src="{{ $imageUrl }}" alt="{{ $imageUrl }}" />
