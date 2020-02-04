@@ -3,6 +3,7 @@ title: "Hugoで、.Page.Resouecesが空([])と表示される問題に対応し�
 linktitle: "HugoKara"
 date: 2020-02-01T22:05:27+09:00
 draft: false
+tags: ["tech"]
 ---
 
 ### まとめ
