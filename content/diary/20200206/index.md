@@ -2,7 +2,7 @@
 title: "20200206"
 linktitle: "20200206"
 date: 2020-02-06T15:45:41+09:00
-draft: true
+draft: false
 ---
 
 今日の日記
